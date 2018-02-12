@@ -22,7 +22,7 @@ void loop() {
   if (ldr_value > 900) {
     digitalWrite(led_indicator, HIGH);
     digitalWrite(relay, LOW);
-    delay(1440000);
+    delay(14400000);
     while(ldr_value > 900) {
       digitalWrite(relay, HIGH);
       digitalWrite(led_indicator, LOW);
